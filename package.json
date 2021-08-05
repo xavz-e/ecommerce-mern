@@ -1,0 +1,30 @@
+{
+  "name": "ecommerce-mern",
+  "version": "1.0.0",
+  "description": "Site ecommerce  full stack com mern ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "NODE_ENV=DEVELOPMENT && nodemon backend/server",
+    "prod": " export NODE_ENV=PRODUCTION && nodemon backend/server"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xavz-e/ecommerce-mern.git"
+  },
+  "author": "Enzo Patricio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xavz-e/ecommerce-mern/issues"
+  },
+  "homepage": "https://github.com/xavz-e/ecommerce-mern#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
